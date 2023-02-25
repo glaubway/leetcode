@@ -14,7 +14,6 @@ class Solution:
         while x > 0:
             reversed_num = reversed_num * 10 + (x % 10)
             x //= 10
-            print(f"x = {x} reversed_num = {reversed_num}")
 
         return original == reversed_num
 
@@ -42,7 +41,7 @@ testcases = [
     },
     {
         "string": +1,
-        "result": 1
+        "result": True
     }
 ]
 
